@@ -1,4 +1,4 @@
-# Hack the Truck 🚚
+﻿# Hack the Truck 🚚
 
 Do you dream big? **Yes**?
 
@@ -12,7 +12,7 @@ The truck is not only a truck. We also added some cool hardware! With our modifi
 
 ![Truck overview](img/truck_overview.jpg)
 
-Everything in the truck is connected to some PCs we have in the back. The PCs are connected to each other with an regular ethernet switch. For unifying the communication, our middleware **Eclipse eCAL™** (which is open source) is used. So for receiving sensor data in your application and controlling actuators you only need to **connect your notebook** to the same switch.
+Everything in the truck is connected to some PCs we have in the back. The PCs are connected to each other with a regular ethernet switch. For unifying the communication, our middleware **Eclipse eCAL™** (which is open source) is used. So, for receiving sensor data in your application and controlling actuators you only need to **connect your notebook** to the same switch.
 
 
 ## About Eclipse eCAL™
@@ -23,7 +23,7 @@ Everything in the truck is connected to some PCs we have in the back. The PCs ar
 
 The scope of eCAL is high performant dataflow on localhost (intra-host) and over local networks (inter-host). The scope is _not_ internet / cloud communication.
 
-eCAL also comes with some usefull tools that will help you with your hack:
+eCAL also comes with some useful tools that will help you with your hack:
 - The **eCAL Monitor** let's you graphically inspect messages that are sent by the sensors, without having to program anything
 - The **eCAL Recorder + Player** duo lets you record and replay data, so you don't have to sit in the truck all the time. 
 
@@ -31,7 +31,7 @@ eCAL also comes with some usefull tools that will help you with your hack:
 > - Read about [how to install eCAL](https://eclipse-ecal.github.io/ecal/getting_started/setup.html) on your PC
 > - Visit the [eCAL github repo](https://github.com/eclipse-ecal/ecal)
 
-# The Callenge
+# The Challenge
 
 The challenge is to **get creative**. Get inspired by the vehicle. Do something amazing with the sensor setup. For the uncreative ones we have two ideas to start with:
 
