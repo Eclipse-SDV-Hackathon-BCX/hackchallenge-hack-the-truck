@@ -1,0 +1,29 @@
+syntax = "proto2";
+
+package pb.HMI;
+
+import "header.proto";
+
+message HmiCanKeyboardState                                  
+{                                                
+  enum can_keyboard_state_t
+  {
+    BUTTON_UNDEF    = 0;
+    BUTTON_RELEASED = 1;
+    BUTTON_CLICKED  = 2;
+  }
+
+	optional pb.Header             	header            		= 1; /// common message header
+	optional can_keyboard_state_t  	CanKeyboard_Button_01  	= 2  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_02 	= 3  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_03 	= 4  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_04 	= 5  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_05 	= 6  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_06 	= 7  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_07 	= 8  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_08 	= 9  [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_09 	= 10 [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_10 	= 11 [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_11 	= 12 [default = BUTTON_UNDEF];
+	optional can_keyboard_state_t  	CanKeyboard_Button_12 	= 13 [default = BUTTON_UNDEF];
+}

@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package pb.SensorNearData.SurroundViewImage;
+
+import "header.proto";
+import "SensorNearData/BaseImage.proto";
+
+message SurroundViewImage
+{
+  optional  pb.Header     header            =  1;                           /// common message header 
+  optional  BaseImage     data              =  2;
+}

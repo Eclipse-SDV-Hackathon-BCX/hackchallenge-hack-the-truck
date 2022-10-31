@@ -1,0 +1,41 @@
+syntax = "proto2";
+
+package pb.SensorNearData;
+
+import "header.proto";
+import "SensorNearData/SensorStates.proto";
+
+message VehicleDynamics
+{
+
+    message Errs
+    {
+        optional  SensorStates steering_wheel_angle        =  7 [default = STATE_FAULT];    ///
+        optional  SensorStates steering_wheel_angle_speed  =  8 [default = STATE_FAULT];    ///
+
+    }
+
+    message Signals
+    {
+        optional  float   steering_wheel_angle        =  7;                  /// rad [range: -1.4 to +1.4]
+        optional  float   steering_wheel_angle_speed  =  8;                  /// rad/s
+    }
+
+    message Variances
+    {
+        optional  float steering_wheel_angle        =  7;    /// 0 means not available
+        optional  float steering_wheel_angle_speed  =  8;    /// 0 means not available
+    }
+
+    message Timestamp
+    {
+        optional  sint64 steering_wheel_angle        =  7;    /// [us] 
+        optional  sint64 steering_wheel_angle_speed  =  8;    /// [us] 
+    }
+
+    optional  pb.Header             header                  =  1;                  /// common message header, like timestamp
+    optional  Errs                  errs                    =  3;                  ///
+    optional  Signals               signals                 =  4;                  ///
+    optional  Variances             variances               =  5;                  ///
+    optional  Timestamp             timestamps              =  7;                  ///
+}

@@ -1,0 +1,10 @@
+syntax = "proto2";
+package pb;
+
+enum SensorStates
+{
+    STATE_FAULT     = 0;
+    STATE_OK        = 1;
+    STATE_TIMEOUT   = 2;
+    STATE_NOT_EXIST = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package pb;
+
+message Header
+{
+  int64               timestamp            =  1;  /// [0,...,2**64] [10**-6*s] Timestamp value in microseconds
+}

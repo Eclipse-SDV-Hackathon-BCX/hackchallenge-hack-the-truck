@@ -1,0 +1,17 @@
+syntax="proto3";
+
+package pb.Applications.Truck;
+
+message W3LightbarRequest
+{
+  bool take_down                  = 2;
+  bool alley_light_left           = 3;
+  bool alley_light_right          = 4;
+  
+  bool red_warning_light          = 12;
+  bool three_sixty_degree_colour_2 = 14;
+  bool front_colour_2             = 15;
+  
+  bool turn_signal_left           = 21;
+  bool turn_signal_right          = 22;
+}
