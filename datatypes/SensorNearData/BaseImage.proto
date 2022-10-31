@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package pb.SensorNearData;
+
+message BaseImage
+{
+  optional  uint32          width             =  100 [default = 0];                       /// [px]
+  optional  uint32          height            =  200 [default = 0];                       /// [px]
+  optional  uint32          bitsPerPixel      =  300 [default = 8];                       /// [bits]
+  optional  uint32          dataSize          =  800 [default = 0];                       /// [byte] data size in case of compressed data
+  optional  bytes           imageData         =  900;                       ///
+}

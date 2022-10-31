@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package pb.HMI;
+
+import "header.proto";
+
+message ButtonState
+{
+  enum butstate_t
+  {
+  BUTTON_RELEASED         = 0;
+  BUTTON_CLICKED          = 1;
+  }
+
+  optional pb.Header   header            = 1;        /// common message header
+  optional butstate_t  ActStatForButton  = 2;        
+}

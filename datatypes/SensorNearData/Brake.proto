@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+package pb.SensorNearData;
+
+import "header.proto";
+import "SensorNearData/SensorStates.proto";
+
+
+message Brake
+{
+    message Errs
+    {
+        optional  pb.SensorStates   is_brake_applied             =  2 [default = STATE_FAULT];  ////
+    }
+
+    message Signals
+    {
+        optional  bool              is_brake_applied             =  3 [default = false];  ///
+    }
+
+    message Timestamp
+    {
+        optional  sint64	is_brake_applied             =  2;    /// [us]
+    }
+
+    optional  pb.Header             header                  =  1;                  /// common message header, timestamp
+    optional  Errs                  errs                    =  3;                  ///
+    optional  Signals               signals                 =  4;                  ///
+    optional  Timestamp             timestamps              =  6;                  ///
+}
