@@ -58,7 +58,15 @@ Besides from that, a Hacker would only need a **notebook**:
 
 ## Example projects
 
-TBD
+You can use the Example projects as a starting-point and modify those to your needs. They already correctly interface with the truck.
+
+1. C++: [Camera Sample](samples/c++/camera/)
+   
+   This sample shows how to read the camera Images sent by the truck and display them in a Window.
+
+2. Python: [Lightbar sample](samples/python/lightbar)
+    
+    This sample sends commands to the roof-mounted lightbar to toggle through the modes
 
 > **_See also_**
 >
