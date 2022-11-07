@@ -72,4 +72,16 @@ You can use the Example projects as a starting-point and modify those to your ne
 >
 > Also check out the [eCAL Hello World](https://eclipse-ecal.github.io/ecal/getting_started/hello_world.html)!
 
+## Example eCAL Measurement
+
+You can download an example eCAL measurement here:
+https://drive.google.com/file/d/1HWQ-FJGs5MleIna3WKVW6O1U1-HTu6ZY/view?usp=sharing
+
+After unzipping, you can open the measurement with the eCAL Player. It will look like this:
+
+![eCAL Play Example Measurement](img/ecal_play_example_measurement.png)
+
+Now you can use this to stimulate your software! 
+
+
 Happy Hacking 😀
