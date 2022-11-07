@@ -58,4 +58,14 @@
 | File     | [SensorNearData/SurroundViewImage/SurroundViewImage.proto](/SensorNearData/SurroundViewImage/SurroundViewImage.proto) |
 | Message | **pb.SensorNearData.SurroundViewImage.SurroundViewImage** |
 | Direction | From vehicle |
-| Topic  | Image(Front\|Left\|Right\|Rear)RgbPb |
+| Topic  | CameraImage(Front\|Left\|Right\|Rear)RgbPb |
+
+---
+
+### Lidar point cloud
+|   |  |
+| --- | --- |
+| File     | [ros/sensor_msgs/PointCloud2.proto](/ros/sensor_msgs/PointCloud2.proto) |
+| Message | **pb.sensor_msgs.PointCloud2** |
+| Direction | From vehicle |
+| Topic  | ROSLidarRoof(Left\|Right) |
