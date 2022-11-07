@@ -60,10 +60,12 @@
 | Direction | From vehicle |
 | Topic  | CameraImage(Front\|Left\|Right\|Rear)RgbPb |
 
+---
+
 ### Lidar point cloud
 |   |  |
 | --- | --- |
 | File     | [ros/sensor_msgs/PointCloud2.proto](/ros/sensor_msgs/PointCloud2.proto) |
-| Message | **pb.sensor_msgs/PointCloud2** |
+| Message | **pb.sensor_msgs.PointCloud2** |
 | Direction | From vehicle |
 | Topic  | ROSLidarRoof(Left\|Right) |
