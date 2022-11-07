@@ -3,9 +3,15 @@
 ---
 
 ### Lightbar control
+
+A lightbar is mounted on the roof of the truck.
+The lightbar has different stati, which can be turned on / off.
+You will have the possiblity to control the lightbar, by sending a message that contains idications for each status.
+See also the [lightbar example](/samples/python/lightbar/w3_lightbar_demo.py).
+
 |   |  |
 | --- | --- |
-| File     | [Applications/Truck/W3Lightbar.proto](/Applications/Truck/W3Lightbar.proto) |
+| File     | [Applications/Truck/W3Lightbar.proto](/datatypes/Applications/Truck/W3Lightbar.proto) |
 | Message | **pb.Applications.Truck.W3LightbarRequest** |
 | Direction | To vehicle |
 | Topic  | W3LightbarRequestPb |
@@ -13,9 +19,13 @@
 ---
 
 ### HMI Keyboard state
+
+The cockpit of the truck contains buttons whose state are available as an eCAL datatype.
+You can use it to switch ON / OFF some features of your software.
+
 |   |  |
 | --- | --- |
-| File     | [HMI/HMICanKeyboard.proto](/HMI/HMICanKeyboard.proto) |
+| File     | [HMI/HMICanKeyboard.proto](/datatypes/HMI/HMICanKeyboard.proto) |
 | Message | **pb.HMI.HmiCanKeyboardState** |
 | Direction | From vehicle |
 | Topic  | HmiCanKeyboardStatePb |
@@ -23,9 +33,10 @@
 ---
 
 ### HMI Button state
+
 |   |  |
 | --- | --- |
-| File     | [HMI/CanButton.proto](/HMI/CanButton.proto) |
+| File     | [HMI/CanButton.proto](/datatypes/HMI/CanButton.proto) |
 | Message | **pb.HMI.ButtonState** |
 | Direction | From vehicle |
 | Topic  | HMI_CAN_Button_State |
@@ -33,9 +44,12 @@
 ---
 
 ### Steering wheel angle
+
+The truck provides a message to read out the current steering wheel angle.
+
 |   |  |
 | --- | --- |
-| File     | [SensorNearData/VehicleDynamics.proto](/SensorNearData/VehicleDynamics.proto) |
+| File     | [SensorNearData/VehicleDynamics.proto](/datatypes/SensorNearData/VehicleDynamics.proto) |
 | Message | **pb.SensorNearData.VehicleDynamics** |
 | Direction | From vehicle |
 | Topic  | VehicleDynamicsInPb |
@@ -43,9 +57,12 @@
 ---
 
 ### Brake pedal state
+
+We provide a message to access the break pedal status of the vehicle.
+
 |   |  |
 | --- | --- |
-| File     | [SensorNearData/Brake.proto](/SensorNearData/Brake.proto) |
+| File     | [SensorNearData/Brake.proto](/datatypes/SensorNearData/Brake.proto) |
 | Message | **pb.SensorNearData.Brake** |
 | Direction | From vehicle |
 | Topic  | BrakeInPb |
@@ -53,9 +70,15 @@
 ---
 
 ### Camera image
+
+Several cameras are mounted on the truck. 
+Data coming from the cameras are accessible via eCAL.
+The image is not compressed but contains binary data in RGB8 format.
+For a reference on how to access the data, refer to the [camera sample](/samples/c%2B%2B/camera/image_widget.cpp#L23)
+
 |   |  |
 | --- | --- |
-| File     | [SensorNearData/SurroundViewImage/SurroundViewImage.proto](/SensorNearData/SurroundViewImage/SurroundViewImage.proto) |
+| File     | [SensorNearData/SurroundViewImage/SurroundViewImage.proto](/datatypes/SensorNearData/SurroundViewImage/SurroundViewImage.proto) |
 | Message | **pb.SensorNearData.SurroundViewImage.SurroundViewImage** |
 | Direction | From vehicle |
 | Topic  | CameraImage(Front\|Left\|Right\|Rear)RgbPb |
