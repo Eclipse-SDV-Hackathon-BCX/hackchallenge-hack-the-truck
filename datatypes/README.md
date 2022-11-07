@@ -1,6 +1,13 @@
 # Protobuf datatypes for Conti's BCX Truck
 
+The truck is interfaces with protobuf datatypes, using the eCAL middlerware.
+A lot of sensor and vehicle state data is avaialable for consumption, and the hacker can use the roof mounted LED bar for actuation.
+
+You can subscribe to the messages with the given topic names, and for control publish the lightbar control message.
+Read below for a description of the datatypes.
+
 ---
+## Actuation
 
 ### Lightbar control
 
@@ -17,6 +24,8 @@ See also the [lightbar example](/samples/python/lightbar/w3_lightbar_demo.py).
 | Topic  | W3LightbarRequestPb |
 
 ---
+## Sensorics and vehicle data
+
 
 ### HMI Keyboard state
 
