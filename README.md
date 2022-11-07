@@ -81,7 +81,7 @@ After unzipping, you can open the measurement with the eCAL Player. It will look
 
 ![eCAL Play Example Measurement](img/ecal_play_example_measurement.png)
 
+Please read [the datatypes section](/datatypes/Readme.md) for information on how to interpret the data.
 Now you can use this to stimulate your software! 
-
 
 Happy Hacking 😀
