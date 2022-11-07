@@ -75,7 +75,7 @@ You can use the Example projects as a starting-point and modify those to your ne
 ## Example eCAL Measurement
 
 You can download an example eCAL measurement here:
-https://drive.google.com/file/d/1HWQ-FJGs5MleIna3WKVW6O1U1-HTu6ZY/view?usp=sharing
+https://drive.google.com/file/d/1HZn6AB-xGlkfWSpJiyg-5bo4giDBkhhh/view?usp=sharing
 
 After unzipping, you can open the measurement with the eCAL Player. It will look like this:
 
