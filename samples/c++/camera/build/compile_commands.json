@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/camera_display.dir/camera_display_autogen/mocs_compilation.cpp.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/mocs_compilation.cpp",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/camera_display.dir/image_widget.cpp.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/image_widget.cpp",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/image_widget.cpp"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/camera_display.dir/main.cpp.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/main.cpp",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/main.cpp"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/camera_display.dir/Graphic.cpp.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/Graphic.cpp",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/Graphic.cpp"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/camera_display.dir/SSDModel.cpp.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/SSDModel.cpp",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/SSDModel.cpp"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -Wno-unused-parameter -Wno-array-bounds -o CMakeFiles/camera_display.dir/protobuf/SensorNearData/SurroundViewImage/SurroundViewImage.pb.cc.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/SurroundViewImage/SurroundViewImage.pb.cc",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/SurroundViewImage/SurroundViewImage.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -Wno-unused-parameter -Wno-array-bounds -o CMakeFiles/camera_display.dir/protobuf/SensorNearData/BaseImage.pb.cc.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/BaseImage.pb.cc",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/BaseImage.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+  "command": "/usr/bin/g++ -DASIO_DISABLE_VISIBILITY -DASIO_STANDALONE -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/. -I/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -Wno-unused-parameter -Wno-array-bounds -o CMakeFiles/camera_display.dir/protobuf/header.pb.cc.o -c /home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/header.pb.cc",
+  "file": "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/header.pb.cc"
+}
+]

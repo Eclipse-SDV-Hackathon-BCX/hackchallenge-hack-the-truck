@@ -1,0 +1,279 @@
+{
+	"BUILD_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/CMakeLists.txt",
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/3.22.1/CMakeSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.22/Modules/FindProtobuf.cmake",
+		"/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/eCALConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/eCALConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindProtobuf.cmake",
+		"/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/helper_functions/ecal_add_functions.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/helper_functions/ecal_helper_functions.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/helper_functions/ecal_install_functions.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/eCALTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/eCAL/eCALTargets-release.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/CMakeFunctionsConfigVersion.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/CMakeFunctionsConfig.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/cmake_functions.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/git/git_revision_information.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/msvc_helper/msvc_macros.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/protoc_functions/protoc_generate_files.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/protoc_functions/protoc_generate_cpp.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/protoc_functions/protoc_generate_python.cmake",
+		"/usr/lib/cmake/CMakeFunctions-0.4.1/target_definitions/targets_protobuf.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/Graphic.h",
+			"Mu",
+			"EWIEGA46WW/moc_Graphic.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/MessageQueue.h",
+			"Mu",
+			"EWIEGA46WW/moc_MessageQueue.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/SSDModel.h",
+			"Mu",
+			"EWIEGA46WW/moc_SSDModel.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/all_subscribers.h",
+			"Mu",
+			"EWIEGA46WW/moc_all_subscribers.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/BaseImage.pb.h",
+			"Mu",
+			"JIEYOS2ARG/moc_BaseImage.pb.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/SurroundViewImage/SurroundViewImage.pb.h",
+			"Mu",
+			"YASVPZV25N/moc_SurroundViewImage.pb.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/header.pb.h",
+			"Mu",
+			"FDR6YN3TXN/moc_header.pb.cpp",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/image_widget.h",
+			"Mu",
+			"EWIEGA46WW/moc_image_widget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ASIO_DISABLE_VISIBILITY",
+		"ASIO_STANDALONE",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera",
+		"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf",
+		"/usr/include/opencv4",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/camera_display_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/camera_display_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/camera_display_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/Graphic.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/SSDModel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/BaseImage.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/SensorNearData/SurroundViewImage/SurroundViewImage.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/protobuf/header.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/image_widget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/main.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}
