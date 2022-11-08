@@ -1,0 +1,33 @@
+syntax = "proto2";
+
+package pb;
+
+import "header.proto";
+
+message GlobalPosEst
+{
+    enum Mode
+    {
+        UNDEF               = 0;
+        GPS_ONLY            = 1;
+        VEHICLE_MODEL       = 2; // i.e. globalPosEst2: GPS+VehicleModel
+        DGPS                = 3; // <40cm accuracy, lat/lon ok (but x/y not)
+        RTK_FLOAT           = 4; // <10cm accuracy, lat/lon ok (but x/y maybe not)
+        RTK_INT             = 5; // <=2cm accuracy, x/y is ok
+    }
+
+
+    optional pb.Header header       =  1;           ///  common message header
+    optional Mode   mode            = 18;           /// calculation mode (somehow general quality)
+    optional double mLat            =  6;           /// [degree] north is + (position of midth of rear-axle)
+    optional double mLon            =  7;           /// [degree] east  is + (position of midth of rear-axle)
+                                                    ///   Attention: in former times it was midth of car, but this changed since the mostly used poisition of RT4000 was the rear-axle
+    optional float  mCourse         =  8;           /// 0..359 [deg], mathematical
+    optional float  mConfCircle     = 10;           /// [m] size of the 95% confidence interval
+ 
+  	optional float  mVelocity       = 13;           /// [m/s] used for local interpolation
+    optional float  mYawrate        = 14;           /// [rad/s] used for local interpolation
+    optional float  mAccLong        = 15;           /// [m/s2] used for local interpolation
+    optional float  altitude        = 17;           /// [m] height above NN 
+
+}
