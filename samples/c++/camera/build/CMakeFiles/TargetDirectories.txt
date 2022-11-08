@@ -1,4 +1,0 @@
-/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/camera_display.dir
-/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/hackchallenge-hack-the-truck/samples/c++/camera/build/CMakeFiles/camera_display_autogen.dir

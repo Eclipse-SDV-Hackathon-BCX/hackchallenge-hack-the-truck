@@ -14,8 +14,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 #include <all_subscribers.h>
 #include <image_widget.h>
-#include <fstream>
-#include <opencv2/opencv.hpp>
 
 
 int main(int argc, char* argv[])
@@ -35,11 +33,6 @@ int main(int argc, char* argv[])
     &widget, &ImageWidget::setImage, Qt::QueuedConnection);
 
   widget.show();
-  const pb::SensorNearData::SurroundViewImage::SurroundViewImage input_image;
-  const auto& image_ = input_image.data();
-  //const auto& image_data = image_.imagedata();
-  cv::Mat img((int)(image_.height()), (int)(image_.width()), CV_8UC3, const_cast<char*>(image_.imagedata().data()));
-  std::cout << "Running on CPU"<<subscribers.ImageReceived().height();
 
   return app.exec();
 }

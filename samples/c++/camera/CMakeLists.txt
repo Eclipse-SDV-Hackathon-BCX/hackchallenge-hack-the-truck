@@ -15,11 +15,6 @@ set(CMAKE_AUTOMOC ON)
 find_package(Protobuf REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
 find_package(eCAL REQUIRED)
-find_package(OpenCV 4.1 REQUIRED)
-
-include_directories(${OpenCV_INCLUDE_DIRS})
-link_directories(${OpenCV_LIBRARY_DIRS})
-add_definitions(${OpenCV_DEFINITIONS})
 
 add_executable(camera_display)
 
@@ -29,11 +24,6 @@ target_sources(camera_display
     image_widget.cpp
     image_widget.h
     main.cpp
-    Graphic.cpp
-    Graphic.h
-    MessageQueue.h
-    SSDModel.cpp
-    SSDModel.h
 )
 
 target_include_directories(camera_display
@@ -45,7 +35,6 @@ target_link_libraries(camera_display
   PRIVATE
     Qt5::Widgets
     eCAL::core
-    ${OpenCV_LIBRARIES}
 )
 
 set(protobuf_idl_path ${CMAKE_CURRENT_SOURCE_DIR}/../../../datatypes)
