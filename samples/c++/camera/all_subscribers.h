@@ -22,7 +22,7 @@ class AllSubscribers : public QObject
 
 public:
   AllSubscribers() :
-    image_subscriber("SvcImageRearRgbPb")
+    image_subscriber("SvcImageFrontRgbPb")
   {
     image_subscriber.AddReceiveCallback(
       [this](const char* /*topic_*/, const pb::SensorNearData::SurroundViewImage::SurroundViewImage& msg, long long /*time_*/, long long /*clock_*/, long long /*id_*/) {
